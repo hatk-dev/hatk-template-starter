@@ -1,0 +1,27 @@
+{
+  "name": "hatk-template-start",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "hatk start",
+    "dev": "vp dev",
+    "build": "vp build",
+    "check": "vp check",
+    "format": "vp format",
+    "test": "vp test"
+  },
+  "dependencies": {
+    "@hatk/hatk": "^0.0.1-alpha.41",
+    "@sveltejs/adapter-cloudflare": "^7.2.8",
+    "@sveltejs/adapter-node": "^5.5.4",
+    "@sveltejs/kit": "^2.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "@voidzero-dev/vite-plus-core": "^0.1.11",
+    "svelte": "^5",
+    "svelte-check": "^4",
+    "typescript": "^5",
+    "vite-plus": "^0.1.11"
+  }
+}
