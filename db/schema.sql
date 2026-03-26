@@ -82,6 +82,19 @@ CREATE TABLE _preferences (
   PRIMARY KEY (did, key)
 );
 
+CREATE TABLE _reports (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  subject_uri TEXT NOT NULL,
+  subject_did TEXT NOT NULL,
+  label TEXT NOT NULL,
+  reason TEXT,
+  reported_by TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'open',
+  resolved_by TEXT,
+  resolved_at TEXT,
+  created_at TEXT NOT NULL
+);
+
 CREATE TABLE _repos (
   did TEXT PRIMARY KEY,
   status TEXT NOT NULL DEFAULT 'pending',
