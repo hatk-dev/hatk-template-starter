@@ -1,7 +1,7 @@
 FROM node:25-slim
 WORKDIR /app
-COPY package.json package-lock.json ./
-RUN npm ci
+COPY package.json ./
+RUN npm install
 COPY . .
 RUN npx vp build
 RUN npm prune --omit=dev
