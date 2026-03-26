@@ -6,7 +6,7 @@
     "start": "hatk start",
     "dev": "vp dev",
     "build": "vp build",
-    "check": "vp check",
+    "check": "vp check && svelte-check",
     "format": "vp format",
     "test": "vp test"
   },
