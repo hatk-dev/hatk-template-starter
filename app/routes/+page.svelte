@@ -29,7 +29,7 @@
 </script>
 
 <main style="max-width: 600px; margin: 0 auto; padding: 2rem;">
-  <h1>My App</h1>
+  <h1>My AppView</h1>
 
   {#if did}
     <p style="margin: 1rem 0; color: var(--muted);">Signed in as <code>{did}</code></p>
