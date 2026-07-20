@@ -20,17 +20,17 @@ Open http://127.0.0.1:3000
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `vp dev` | Start dev server (PDS + hatk + SvelteKit) |
-| `vp build` | Build for production |
-| `vp check` | Lint and type-check |
-| `vp test` | Run tests |
-| `hatk generate types` | Regenerate types from lexicons |
-| `hatk generate record <nsid>` | Scaffold a new record lexicon |
-| `hatk generate feed <name>` | Scaffold a feed handler |
-| `hatk seed` | Re-run seed data |
-| `hatk reset` | Wipe database and PDS |
+| Command                       | Description                               |
+| ----------------------------- | ----------------------------------------- |
+| `vp dev`                      | Start dev server (PDS + hatk + SvelteKit) |
+| `vp build`                    | Build for production                      |
+| `vp check`                    | Lint and type-check                       |
+| `vp test`                     | Run tests                                 |
+| `hatk generate types`         | Regenerate types from lexicons            |
+| `hatk generate record <nsid>` | Scaffold a new record lexicon             |
+| `hatk generate feed <name>`   | Scaffold a feed handler                   |
+| `hatk seed`                   | Re-run seed data                          |
+| `hatk reset`                  | Wipe database and PDS                     |
 
 ## Login
 
