@@ -8,7 +8,8 @@
     "build": "vp build",
     "check": "vp check && svelte-check",
     "format": "vp format",
-    "test": "vp test"
+    "test": "vp test",
+    "prepare": "svelte-kit sync"
   },
   "dependencies": {
     "@hatk/hatk": "^0.0.1-alpha.63",
